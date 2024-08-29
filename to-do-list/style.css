@@ -1,0 +1,82 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Header */
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Input and Button Container */
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* Input */
+#task {
+    width: 70%;
+    padding: 10px;
+    border: 2px solid #74ebd5;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Button */
+#btn {
+    padding: 10px;
+    background-color: #74ebd5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#btn:hover {
+    background-color: #5bc6bc;
+}
+
+/* Task List */
+#list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#list li {
+    background-color: #f4f4f4;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+
+#list li:hover {
+    background-color: #e0e0e0;
+}
+
+/* Remove the delete button style */
